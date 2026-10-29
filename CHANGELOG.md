@@ -1,5 +1,25 @@
 # Changelog
 
+## [2026.10.24](https://github.com/jdx/mise/releases/tag/v2026.10.24) - 2026-10-29
+
+### 🚀 Features
+
+- **(env)** add position = "append" to env._.path by @jdx in [#15158](https://github.com/jdx/mise/pull/15158)
+- **(pypi)** add registry_index to search a tool registry ahead of PyPI when locking by @jdx in [#15157](https://github.com/jdx/mise/pull/15157)
+
+### 🐛 Bug Fixes
+
+- **(brew)** skip MachO post_install steps in source builds by @jdx in [#15152](https://github.com/jdx/mise/pull/15152)
+- **(brew-cask)** stage binary payloads before postflight by @azohra in [#14837](https://github.com/jdx/mise/pull/14837)
+- **(gem)** skip RubyGems prereleases when resolving latest by @dennmart in [#15143](https://github.com/jdx/mise/pull/15143)
+- **(prune)** keep versions of tools declared in included task files by @jdx in [#15156](https://github.com/jdx/mise/pull/15156)
+- **(pypi)** lock the dependency graph against the selected Python by @jdx in [#15153](https://github.com/jdx/mise/pull/15153)
+- **(task)** allow comments in turbo.json and global.json by @jdx in [#15141](https://github.com/jdx/mise/pull/15141)
+
+### New Contributors
+
+- @dennmart made their first contribution in [#15143](https://github.com/jdx/mise/pull/15143)
+
 ## [2026.10.23](https://github.com/jdx/mise/releases/tag/v2026.10.23) - 2026-10-29
 
 ### 🚀 Features
